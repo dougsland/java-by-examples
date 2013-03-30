@@ -18,7 +18,7 @@ public class splitString {
 		String delimiter = "\\.";
 		String temp[] = str.split(delimiter);
 
-        // Printing by delimiter
+		// Printing by delimiter
 		for(int i=0; i < temp.length; i++)
 			System.out.println(temp[i]);
 
