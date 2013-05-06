@@ -14,6 +14,7 @@ public class ifTest {
 	public static void main(String args[]){
 		int magicNumber = 50;
 		int secondNumber = 60;
+        String color = "Red";
 	
 		if (magicNumber == 10) {
 			System.out.println("Magic Number is 10");
@@ -32,5 +33,9 @@ public class ifTest {
 		if (!(magicNumber == 20) || (secondNumber == 30)) {
 			System.out.println("MagicNumber is not 20 or 30");
 		}
+
+        if (color.toLowerCase().contains("re")) {
+            System.out.println("My favorite color is " + color);
+        }
 	}
 }
