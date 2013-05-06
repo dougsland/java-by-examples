@@ -11,31 +11,31 @@
  */
 
 public class ifTest {
-	public static void main(String args[]){
-		int magicNumber = 50;
-		int secondNumber = 60;
+    public static void main(String args[]){
+        int magicNumber = 50;
+        int secondNumber = 60;
         String color = "Red";
-	
-		if (magicNumber == 10) {
-			System.out.println("Magic Number is 10");
-		} else if (magicNumber == 20) {
-			System.out.println("Magic Number is 20");
-		} else if (magicNumber == 50) {
-			System.out.println("Magic Number is 50");
-		} else {
-			System.out.println("Cannot find Magic Number");
-		}
 
-		if ((magicNumber == 50) && (secondNumber == 60)) {
-			System.out.println("MagicNumber = 50 and SecondNumber = 60");
-		}
+        if (magicNumber == 10) {
+            System.out.println("Magic Number is 10");
+        } else if (magicNumber == 20) {
+            System.out.println("Magic Number is 20");
+        } else if (magicNumber == 50) {
+            System.out.println("Magic Number is 50");
+        } else {
+            System.out.println("Cannot find Magic Number");
+        }
 
-		if (!(magicNumber == 20) || (secondNumber == 30)) {
-			System.out.println("MagicNumber is not 20 or 30");
-		}
+        if ((magicNumber == 50) && (secondNumber == 60)) {
+            System.out.println("MagicNumber = 50 and SecondNumber = 60");
+        }
+
+        if (!(magicNumber == 20) || (secondNumber == 30)) {
+            System.out.println("MagicNumber is not 20 or 30");
+        }
 
         if (color.toLowerCase().contains("re")) {
             System.out.println("My favorite color is " + color);
         }
-	}
+    }
 }
