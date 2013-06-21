@@ -17,5 +17,7 @@ public class extractCharactersString {
 		String str = "2.6.0.20130212";
         String date = str.substring(str.length() - 8);
 			System.out.println(date);
+
+        System.out.println(str.substring(0, 5) );
 	}
 }
